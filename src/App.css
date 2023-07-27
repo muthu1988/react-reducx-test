@@ -32,7 +32,25 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.form {
+  float: left;
+}
+
+input {
+  width: auto;
+  height: 16px;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 5px;
 }
